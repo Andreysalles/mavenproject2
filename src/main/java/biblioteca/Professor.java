@@ -3,11 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package biblioteca;
-import java.io.File;
-import java.io.IOException;
+
 import java.util.List;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
 
 public class Professor extends Socio{
     private String matriculaProfessor;

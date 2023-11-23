@@ -3,12 +3,6 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package biblioteca;
-
-import java.io.File;
-import java.io.IOException;
-
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 public class Emprestimo {
     private Exemplar exemplar;
     private String dataEmprestimo;

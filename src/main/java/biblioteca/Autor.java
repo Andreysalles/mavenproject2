@@ -4,12 +4,6 @@
  */
 package biblioteca;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-import java.io.FileReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-
 import  java.util.List;
 
 public class Autor 
