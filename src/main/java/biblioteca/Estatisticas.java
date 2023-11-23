@@ -48,8 +48,6 @@ public class Estatisticas {
             }
         }
     
-        // Livro não encontrado
-        System.out.println("O livro com ID " + idLivro + " não foi encontrado.");
         return false;
     }
 }

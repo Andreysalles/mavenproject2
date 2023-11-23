@@ -21,7 +21,7 @@ public class DataRepository {
             return livros;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -36,7 +36,7 @@ public class DataRepository {
             return exemplares;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -52,7 +52,7 @@ public class DataRepository {
             return emprestimos;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -67,7 +67,7 @@ public class DataRepository {
             return professores;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -83,7 +83,7 @@ public class DataRepository {
             return reservas;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -100,7 +100,7 @@ public class DataRepository {
             return alunos;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -116,7 +116,7 @@ public class DataRepository {
             return autores;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
@@ -131,7 +131,7 @@ public class DataRepository {
             return socios;
         } catch (IOException e) {
             e.printStackTrace();
-            return null; // Tratamento adequado de erro, você pode lançar uma exceção ou retornar um valor padrão
+            return null; 
         }
     }
 
