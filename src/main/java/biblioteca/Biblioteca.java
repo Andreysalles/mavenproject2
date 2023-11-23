@@ -1,6 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
 
 package biblioteca;
 import  java.util.List;
@@ -9,14 +6,7 @@ public class Biblioteca {
 
     public static void main(String[] args)  {
         Scanner scanner = new Scanner(System.in);
-        // List<Autor> autores =  DataRepository.getAutoresFromJson("json/autor.json");
-        // List<Aluno>  alunos =  DataRepository.getAlunosFromJson("json/aluno.json");
-        // List<Exemplar>  exemplares = DataRepository.getExemplaresFromJson("json/exemplar.json");
-        // List<Emprestimo>  emprestimos =  DataRepository.getEmprestimosFromJson("json/emprestimo.json");
-        // List<Professor>  professores =  DataRepository.getProfessoresFromJson("json/professor.json");
-        // List<Reserva>  reservas =  DataRepository.getReservasFromJson("json/reserva.json");
-        // List<Livro> livros =  DataRepository.getLivrosFromJson("json/livro.json");
-        // List<Socio>  socios =  DataRepository.getSociosFromJson("json/socio.json");
+
         
 
         while (true) {
