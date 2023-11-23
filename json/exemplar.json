@@ -1,0 +1,16 @@
+[
+    {  
+        "numero": 1,
+        "emprestado": true,
+        "livro": {
+            "nome": "O Senhor dos Anéis",
+            "id": "1",
+            "preco": 50.0,
+            "isbn": 123456789,
+            "exemplares": [],
+            "cpfEmprestimo": ""
+        }
+    
+
+    }
+]

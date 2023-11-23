@@ -3,24 +3,31 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package biblioteca;
-import java.util.ArrayList;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import java.io.FileReader;
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 import  java.util.List;
-/**
- *
- * @author carlos
- */
+
 public class Autor 
 {
     private String nome;
     private String rna;
     private List<Livro> livros;
 
-    public Autor(String nome, String rna) 
-    {
+    public Autor() {
+        // Construtor padrão vazio necessário para a desserialização do Jackson
+    }
+
+    public Autor(String nome, String rna, List<Livro> livros) {
         this.nome = nome;
         this.rna = rna;
-        this.livros = new ArrayList<>();
+        this.livros = livros;
     }
+
 
     public String getNome() 
     {
@@ -51,5 +58,28 @@ public class Autor
     {
         this.livros = livros;
     }
+   
+    public void mostrarDados() {
+        System.out.println("--------- Autor ------------ " );
+        System.out.println(" " );
+        System.out.println("Nome do Autor: " + nome);
+        System.out.println("RNA do Autor: " + rna);
+
+        if (livros != null && !livros.isEmpty()) {
+            System.out.println("Livros do Autor:");
+            for (Livro livro : livros) {
+                System.out.println("  - Nome do Livro: " + livro.getNome());
+                System.out.println("    ID do Livro: " + livro.getId());
+             
+            }
+        } else {
+            System.out.println("O autor não possui livros.");
+        }
+        System.out.println(" " );
+        System.out.println("---------------------------- " );
+        System.out.println(" " );
+    }
+    
+
 
 }

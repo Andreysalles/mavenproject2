@@ -1,0 +1,14 @@
+[{
+    "dataInicio": "2023-11-22",
+    "cpf": "123.456.789-10",
+    "livros": [
+        {
+            "nome": "O Senhor dos Anéis",
+            "id": "1",
+            "preco": 50.0,
+            "isbn": 123456789,
+            "exemplares": [],
+            "cpfEmprestimo": ""
+        }
+    ]
+}]

@@ -3,30 +3,34 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package biblioteca;
-import java.util.ArrayList;
+import java.io.File;
+import java.io.IOException;
 import  java.util.List;
-/**
- *
- * @author carlos
- */
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 public class Livro 
 {
     private String nome;
     private String id;
     private float preco;
     private int isbn;
-    private List<Autor> autores;
     private List<Exemplar> exemplares;
     private String cpfEmprestimo;
+    private List<Autor> autores;
 
-    public Livro(String nome, String id, float preco, int isbn) 
-    {
+    public Livro(){
+        
+    }
+    public Livro(String nome, String id, float preco, int isbn, List<Exemplar> exemplares, String cpfEmprestimo,
+            List<Autor> autores) {
         this.nome = nome;
         this.id = id;
         this.preco = preco;
         this.isbn = isbn;
-        this.autores = new ArrayList<>();
-        this.exemplares = new ArrayList<>();
+        this.exemplares = exemplares;
+        this.cpfEmprestimo = cpfEmprestimo;
+        this.autores = autores;
     }
 
     public String getNome() 
@@ -69,16 +73,6 @@ public class Livro
         this.isbn = isbn;
     }
 
-    public List<Autor> getAutores() 
-    {
-        return autores;
-    }
-
-    public void setAutores(List<Autor> autores) 
-    {
-        this.autores = autores;
-    }
-
     public List<Exemplar> getExemplares() 
     {
         return exemplares;
@@ -98,5 +92,37 @@ public class Livro
     {
         this.cpfEmprestimo = cpfEmprestimo;
     }
+
+    public List<Autor> getAutores() {
+        return autores;
+    }
+    public void setAutores(List<Autor> autores) {
+        this.autores = autores;
+    }
+    
+    
+
+    public void mostrarDados() {
+        System.out.println("--------- Livro ------------ " );
+        System.out.println(" " );
+        System.out.println("Nome: " + nome);
+        System.out.println("ID: " + id);
+        System.out.println("Preço: " + preco);
+        System.out.println("ISBN: " + isbn);
+        System.out.println("Exemplares:");
+        for (Exemplar exemplar : exemplares) {
+            System.out.println("\tNúmero: " + exemplar.getNumero());
+            System.out.println("\tEmprestado: " + exemplar.isEmprestado());
+        }
+        System.out.println("CPF de empréstimo: " + cpfEmprestimo);
+        System.out.println("Autores:");
+        for (Autor autor : autores) {
+            System.out.println("\tNome: " + autor.getNome());
+            System.out.println("\tRNA: " + autor.getRna());
+        }
+        System.out.println(" " );
+        System.out.println("------------------------------ " );
+    }
+
     
 }

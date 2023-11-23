@@ -1,0 +1,60 @@
+[
+  {
+    "nome": "Andrey",
+    "cpf": "987.654.321-00",
+    "emprestimo": [
+      {
+        "exemplar": {
+          "livro": {
+            "nome": "Livro 1",
+            "id": "123456",
+            "preco": 29.99,
+            "isbn": 987654321,
+            "autores": [
+              {
+                "nome": "Autor 1",
+                "rna": "123456789"
+              }
+            ],
+            "exemplares": [
+              {
+                "numero": 1,
+                "emprestado": false
+              }
+            ],
+            "cpfEmprestimo": "123.456.789-01"
+          },
+          "emprestado": false
+        },
+        "dataEmprestimo": "2023-11-20",
+        "datadeEntrega": "2023-12-01"
+      },
+      {
+        "exemplar": {
+          "livro": {
+            "nome": "Livro 2",
+            "id": "789012",
+            "preco": 39.99,
+            "isbn": 123456789,
+            "autores": [
+              {
+                "nome": "Autor 2",
+                "rna": "987654321"
+              }
+            ],
+            "exemplares": [
+              {
+                "numero": 2,
+                "emprestado": true
+              }
+            ],
+            "cpfEmprestimo": "987.654.321-00"
+          },
+          "emprestado": true
+        },
+        "dataEmprestimo": "2023-11-25",
+        "datadeEntrega": "2023-12-10"
+      }
+    ]
+  }
+]

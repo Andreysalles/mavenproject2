@@ -1,0 +1,116 @@
+[
+    {
+      "nome": "O Senhor dos Anéis",
+      "id": "1",
+      "preco": 50.0,
+      "isbn": 123456789,
+      "autores": [
+        {
+          "nome": "Autor 1",
+          "rna": "123456789"
+        },
+        {
+          "nome": "Autor 2",
+          "rna": "123456789"
+        }
+      
+      ],
+      "exemplares": [
+        {
+          "numero": 2,
+          "emprestado": false
+        }
+      ],
+      "cpfEmprestimo": "123.456.789-01"
+  },
+  {
+      "nome": "Procurando Nemo",
+      "id": "2",
+      "preco": 20.0,
+      "isbn": 123456783,
+      "autores": [
+        {
+          "nome": "Autor 2",
+          "rna": "123456789"
+        },
+        {
+          "nome": "Autor 3",
+          "rna": "123456732"
+        }
+      
+      ],
+      "exemplares": [
+        {
+          "numero": 1,
+          "emprestado": false
+        },
+        {
+          "numero": 2,
+          "emprestado": true
+        },
+        {
+          "numero": 3,
+          "emprestado": true
+        }
+      ],
+      "cpfEmprestimo": "123.456.789-01"
+    },
+
+    {
+      "nome": "Diário de um banana",
+      "id": "3",
+      "preco": 20.0,
+      "isbn": 123456783,
+      "autores": [
+        {
+          "nome": "Autor 3",
+          "rna": "123456789"
+        }
+
+      ],
+      "exemplares": [
+        {
+          "numero": 1,
+          "emprestado": false
+        },
+        {
+          "numero": 2,
+          "emprestado": true
+        },
+        {
+          "numero": 3,
+          "emprestado": true
+        }
+      ],
+      "cpfEmprestimo": "123.456.789-01"
+    },
+    {
+      "nome": "Em Busca do Tempo Perdido",
+      "id": "4",
+      "preco": 20.0,
+      "isbn": 123456783,
+      "autores": [
+        {
+          "nome": "Marcel Proust",
+          "rna": "123456789"
+        }
+
+      ],
+      "exemplares": [
+        {
+          "numero": 1,
+          "emprestado": false
+        },
+        {
+          "numero": 2,
+          "emprestado": true
+        },
+        {
+          "numero": 3,
+          "emprestado": true
+        }
+      ],
+      "cpfEmprestimo": "123.456.789-01"
+    }
+
+]

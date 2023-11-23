@@ -1,0 +1,136 @@
+
+
+[
+  {
+    "nome": "Andrey",
+    "rna": "123456789",
+    "livros": [
+      {
+        "nome": "Livro 1",
+        "id": "123456",
+        "preco": 29.99,
+        "isbn": 987654321,
+        "autores": [
+          {
+            "nome": "Autor 1",
+            "rna": "123456789"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 1,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "123.456.789-01"
+      },
+      {
+        "nome": "Livro 2",
+        "id": "789012",
+        "preco": 39.99,
+        "isbn": 123456789,
+        "autores": [
+          {
+            "nome": "Nome do Autor 2",
+            "rna": "987654321"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 2,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "987.654.321-00"
+      }
+    ]
+  },
+  {
+    "nome": "Carlos",
+    "rna": "123456789",
+    "livros": [
+      {
+        "nome": "Livro 1",
+        "id": "123456",
+        "preco": 29.99,
+        "isbn": 987654321,
+        "autores": [
+          {
+            "nome": "Autor2",
+            "rna": "123456789"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 1,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "123.456.789-01"
+      },
+      {
+        "nome": "Livro2",
+        "id": "789012",
+        "preco": 39.99,
+        "isbn": 123456789,
+        "autores": [
+          {
+            "nome": "Autor2",
+            "rna": "987654321"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 2,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "987.654.321-00"
+      }
+    ]
+  },
+  {
+    "nome": "Joãozinho",
+    "rna": "40028922",
+    "livros": [
+      {
+        "nome": "Livro1",
+        "id": "123456",
+        "preco": 29.99,
+        "isbn": 987654321,
+        "autores": [
+          {
+            "nome": "Autor 1",
+            "rna": "123456789"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 1,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "123.456.789-01"
+      },
+      {
+        "nome": "Livro 2",
+        "id": "789012",
+        "preco": 39.99,
+        "isbn": 123456789,
+        "autores": [
+          {
+            "nome": "Nome do Autor 2",
+            "rna": "987654321"
+          }
+        ],
+        "exemplares": [
+          {
+            "numero": 2,
+            "emprestado": false
+          }
+        ],
+        "cpfEmprestimo": "987.654.321-00"
+      }
+    ]
+  }
+]

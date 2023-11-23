@@ -1,0 +1,197 @@
+
+[
+  {
+      "matriculaAluno": "2023456789",
+      "nome": "Andrey",
+      "cpf": "987.654.321-00",
+      "emprestimo": [
+        {
+          "exemplar": {
+            "livro": {
+              "nome": "O Senhor dos Anéis",
+              "id": "1",
+              "preco": 50.0,
+              "isbn": 123456789,
+              "autores": [
+                {
+                  "nome": "Autor 1",
+                  "rna": "123456789"
+                },
+                {
+                  "nome": "Autor 2",
+                  "rna": "123456732"
+                }
+              
+              ],
+              "exemplares": [
+                {
+                  "numero": 1,
+                  "emprestado": false
+                }
+              ],
+              "cpfEmprestimo": "123.456.789-01"
+            },
+            "emprestado": false
+          },
+          "dataEmprestimo": "2023-11-20",
+          "datadeEntrega": "2023-12-01",
+          "socio": {
+            "nome": "Socio",
+            "cpf": "987.654.321-00",
+            "emprestimo": []
+          }
+        },
+        {
+          "exemplar": {
+            "livro": {
+              "nome": "O Senhor dos Anéis 2",
+              "id": "2",
+              "preco": 50.0,
+              "isbn": 123456789,
+              "autores": [
+                {
+                  "nome": "Autor 1",
+                  "rna": "123456789"
+                },
+                {
+                  "nome": "Autor 2",
+                  "rna": "123456732"
+                }
+              
+              ],
+              "exemplares": [
+                {
+                  "numero": 3,
+                  "emprestado": false
+                }
+              ],
+              "cpfEmprestimo": "123.456.789-41"
+            },
+            "emprestado": false
+          },
+          "dataEmprestimo": "2023-11-10",
+          "datadeEntrega": "2023-12-31",
+          "socio": {
+            "nome": "Socio",
+            "cpf": "987.654.321-50",
+            "emprestimo": []
+          }
+        }
+      ]
+    },
+    {
+      "matriculaAluno": "202203539",
+      "nome": "Carlos",
+      "cpf": "987.654.321-00",
+      "emprestimo": [
+        {
+          "exemplar": {
+            "livro": {
+              "nome": "O Senhor dos Anéis 4",
+              "id": "1",
+              "preco": 50.0,
+              "isbn": 123456789,
+              "autores": [
+                {
+                  "nome": "Autor 2",
+                  "rna": "123456789"
+                },
+                {
+                  "nome": "Autor 4",
+                  "rna": "123456732"
+                }
+              
+              ],
+              "exemplares": [
+                {
+                  "numero": 4,
+                  "emprestado": false
+                }
+              ],
+              "cpfEmprestimo": "123.456.789-31"
+            },
+            "emprestado": false
+          },
+          "dataEmprestimo": "2023-11-20",
+          "datadeEntrega": "2023-12-01",
+          "socio": {
+            "nome": "Socio",
+            "cpf": "987.654.321-00",
+            "emprestimo": []
+          }
+        },
+        {
+          "exemplar": {
+            "livro": {
+              "nome": "O Senhor dos Anéis 3",
+              "id": "2",
+              "preco": 50.0,
+              "isbn": 123456789,
+              "autores": [
+                {
+                  "nome": "Autor 7",
+                  "rna": "123456789"
+                },
+                {
+                  "nome": "Autor 8",
+                  "rna": "123456732"
+                }
+              
+              ],
+              "exemplares": [
+                {
+                  "numero": 3,
+                  "emprestado": false
+                }
+              ],
+              "cpfEmprestimo": "123.456.789-41"
+            },
+            "emprestado": false
+          },
+          "dataEmprestimo": "2023-11-10",
+          "datadeEntrega": "2023-12-31",
+          "socio": {
+            "nome": "Socio",
+            "cpf": "987.654.321-50",
+            "emprestimo": []
+          }
+        },
+        {
+          "exemplar": {
+            "livro": {
+              "nome": "O Senhor dos Anéis 10",
+              "id": "1",
+              "preco": 50.0,
+              "isbn": 123456789,
+              "autores": [
+                {
+                  "nome": "Autor 2",
+                  "rna": "123456789"
+                },
+                {
+                  "nome": "Autor 4",
+                  "rna": "123456732"
+                }
+              
+              ],
+              "exemplares": [
+                {
+                  "numero": 4,
+                  "emprestado": false
+                }
+              ],
+              "cpfEmprestimo": "123.456.789-31"
+            },
+            "emprestado": false
+          },
+          "dataEmprestimo": "2023-11-20",
+          "datadeEntrega": "2023-12-01",
+          "socio": {
+            "nome": "Socio",
+            "cpf": "987.654.321-00",
+            "emprestimo": []
+          }
+        }
+      ]
+    }
+  ]
